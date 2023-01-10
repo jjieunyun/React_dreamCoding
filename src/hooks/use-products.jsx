@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+//⭐️custom Hook : Hooks는 값의 재사용이 아니라 로직의 재사용을 위한 것이다
+
 
 export default function useProducts({ salesOnly }) {
   const [loading, setLoading] = useState(false);
